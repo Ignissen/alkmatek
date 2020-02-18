@@ -35,9 +35,17 @@ ones(2,4); % egyesekbõl álló 2x4-es mátrix
 %A-b
 %c*A
 %A^2
+%3. feladat
+x = [-1 4 0];
+y = [3 -2 5];
+A = [-3 1 -4; 6 2 -5];
+[A;x]; % új sorba konkatenáljuk az x vektort
+%[A, x] % ez nem mûködik
+%[A',x] % nem mûködik
+[A', x'];
 
-
-
+%A^2 % nem mûködik
+A.^2;
 
 
 
