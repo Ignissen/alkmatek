@@ -88,7 +88,8 @@ diag(a) - négyzetes mártix, amely fõátlója a megadott vektor
 tril - mátrix alsóháromszög részével tér vissza
 triu - mátrix felsõháromszög részével tér vissza
 %}
-
+%Függvény hívás
+masodf(1:0.1:100)
 
 
 
