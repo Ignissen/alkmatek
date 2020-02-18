@@ -11,6 +11,11 @@ find(x<=y);
 a = rand(1,20);
 b = a(find(a>0.5));
 
-kilenc_a(9)
-kilenc_b(5)
-tizes([2 4;4 6;8 10])
+kilenc_a(9);
+kilenc_b(5);
+tizes([2 4;4 6;8 10]);
+
+a = fuggveny1(100);
+b = [-98:1]';
+b(100)=1.00001
+x = a\b
