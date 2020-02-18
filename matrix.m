@@ -17,3 +17,8 @@ size(A) - kételemû sorvektor
 length - egy skalár -> max(size(A))
 többi függvény vektorok mintájára
 %}
+%mátrix -> vektor
+a(:);
+%sor/oszlopcsere
+a([1,2],:) = a([2,1],:);
+%oszlopcsere hasonlóan
