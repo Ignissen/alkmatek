@@ -25,22 +25,5 @@ sort(vektor, 'descend')
 flip
 length
 sum
-prod
-mean
-%}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}%
