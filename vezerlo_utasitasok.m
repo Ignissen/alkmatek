@@ -13,3 +13,4 @@ b = a(find(a>0.5));
 
 kilenc_a(9)
 kilenc_b(5)
+tizes([2 4;4 6;8 10])
