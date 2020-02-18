@@ -67,8 +67,27 @@ sum(A);
 sum(A, 2);
 reshape(A, 6, 4);
 max(A);
-max(A,[],2)
+max(A,[],2); %soronkénti max
+max(A,[],1); %oszloponkénti max
+max(A, 2); %
+flipud(A);
+fliplr(A);
+size(A);
+length(A);
 
+%{
+lenáris algebrában hasznos fv
+det
+inv
+dot - belsõ szorzat
+norm - A 2-normája
+norm(A, inf) - A végtelen-normája
+norm(A, 1) - A 1-normája
+
+diag(a) - négyzetes mártix, amely fõátlója a megadott vektor
+tril - mátrix alsóháromszög részével tér vissza
+triu - mátrix felsõháromszög részével tér vissza
+%}
 
 
 
